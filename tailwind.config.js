@@ -1,4 +1,6 @@
 module.exports = {
+    purge: [],
+    darkMode: false, // or 'media' or 'class'
     theme: {
         extend: {
             width: {
@@ -14,7 +16,9 @@ module.exports = {
             },
         }),
     },
-    variants: {},
+    variants: {
+        extend: {},
+    },
     plugins: [
         require('tailwindcss-spinner')(),
     ],

@@ -67,7 +67,6 @@ class ActorViewModel extends ViewModel
         });
     }
 
-
     public function credits()
     {
         $castMovies = collect($this->credits)->get('cast');

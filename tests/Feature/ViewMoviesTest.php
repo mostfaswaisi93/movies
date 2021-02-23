@@ -5,6 +5,7 @@ namespace Tests\Feature;
 use Tests\TestCase;
 use Livewire\Livewire;
 use Illuminate\Support\Facades\Http;
+use Illuminate\Foundation\Testing\WithFaker;
 use Illuminate\Foundation\Testing\RefreshDatabase;
 
 class ViewMoviesTest extends TestCase

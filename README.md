@@ -1,1 +1,1 @@
-## Laravel - Movies with Tailwind CSS
+# Laravel - Movies with Tailwind CSS
